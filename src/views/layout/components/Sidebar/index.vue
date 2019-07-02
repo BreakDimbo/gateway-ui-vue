@@ -1,8 +1,8 @@
 <template>
     <el-scrollbar wrapClass="scrollbar-wrapper">
         <div class="logo-con">
-            <div class="api-big" v-show="!isCollapse">FaGongZi</div>
-            <div class="api-small" v-show="isCollapse">FGZ</div>
+            <div class="api-big" v-show="!isCollapse">ByteCDN</div>
+            <div class="api-small" v-show="isCollapse">BCDN</div>
         </div>
         <el-menu
                 mode="vertical"
