@@ -3,7 +3,7 @@
         <div class="filter-container">
             <el-select filterable v-model.number="listQuery.clusterId" @change="handleFilter"
                        :placeholder="i18n('server.searchTips')">
-                <el-option v-for="(item2,index2) in clustersList" :label="item2.name"
+                <el-option v-for="(item2) in clustersList" :label="item2.name"
                            :value="item2.id" :key="item2.id"></el-option>
             </el-select>
             <template v-if="listQuery.clusterId">

@@ -5,7 +5,7 @@
                 <span v-if="isShow">{{tempItem.bindClusterName}}</span>
                 <template v-else>
                     <el-select v-model="tempItem.bindClusterId">
-                        <el-option v-for="(item2,index2) in clustersList" :label="item2.name"
+                        <el-option v-for="(item2) in clustersList" :label="item2.name"
                                    :value="item2.id" :key="item2.id"></el-option>
                     </el-select>
                 </template>
